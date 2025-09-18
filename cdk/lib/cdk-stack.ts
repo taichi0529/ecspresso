@@ -97,6 +97,7 @@ export class CdkStack extends cdk.Stack {
           pushFilter: [{
             branchesIncludes: ['main'],
             filePathsIncludes: [
+              'frontend/public/*',
               'frontend/public/**/*',
               'frontend/Dockerfile',
               'frontend/buildspec.yml'
